@@ -1,0 +1,3 @@
+const NavItems = {
+    fontWeight:'bold'
+}

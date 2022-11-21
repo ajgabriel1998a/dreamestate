@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "AquireBold";   /*Can be any text*/
+  src: local("AquireBold"),
+    url("../Fonts/AquireBold.otf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSansHebrewCondensed-Bold";   /*Can be any text*/
+  src: local("OpenSansHebrewCondensed-Bold"),
+    url("../Fonts/OpenSansHebrewCondensed-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSansHebrewCondensed-Regular";   /*Can be any text*/
+  src: local("OpenSansHebrewCondensed-Regular"),
+    url("../Fonts/OpenSansHebrewCondensed-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSansHebrewCondensed-Light";   /*Can be any text*/
+  src: local("OpenSansHebrewCondensed-Light"),
+    url("../Fonts/OpenSansHebrewCondensed-Light.ttf") format("truetype");
+}
+body,html{
+    height: 100%;
+  width: 100%;
+  margin: 0;
+  margin-right: -2;
+  padding: 0;
+  font-family: 'OpenSansHebrewCondensed-Bold';
+}
+label .titlepage{
+  font-weight: bolder;
+  color: 'white';
+  font-size: '50px';
+}
+.Button{
+  font-weight: 'bold';
+    font-size: '14px';
+    margin-right: '1px';
+    color: red
+
+}
+
+.logotitle{
+  font-family: 'AquireBold';
+}
+
